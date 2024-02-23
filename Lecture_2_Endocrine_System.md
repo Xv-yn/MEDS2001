@@ -1,12 +1,21 @@
 # Lecture 2 Endocrine System
 
+#### 
+
+- Describe the role of the endocrine system
+- Identify the cells of the endocrine system and their location
+- Understand the regulation of hormone action (secretion, signalling, termination and feedback loops)
+- List the classes of hormones and modes of action
+- Describe how different endocrine pathologies occur
+
+
 ##### Endocrine System
 The endocrine system is one of the key ways a cells communicate with each other. This is achieved through the secretion of hormones. 
 Hormones are chemical messengers that are made in one part of the body and are sent through blood circulation to reach specific targets, triggering effects in the corresponding body parts.
 
 In simpler terms, one of the ways cells can "talk" to each other is through the use of hormones (like emails). Hormones travel through the blood circulation (the internet) to reach the specific target(s) (the recipient). The endocrine system (the email server) is what allows this to happen.
 
-##### Glands of the Endocrine System
+##### Glands of the Endocrine System and Their Location
 - Pituitary Gland
 	- Located in the Head
 - Thyroid
@@ -21,6 +30,7 @@ In simpler terms, one of the ways cells can "talk" to each other is through the 
 	- Located near the Groin
 - Testes
 	- Located near the Groin
+
 ##### Functions
 The endocrine system is reponsible for many things in the body. This is a generalized list of some, but not all of the functions of the endocrine system.
 - Respiration
@@ -153,7 +163,7 @@ Hormones are mostly classified using biochemistry, and there are divided as:
 		- Transported via concentration gradient by diffusion
 
 ##### Hormone Production
-###### Production of Peptide Hormones
+###### Production (Secretion) of Peptide Hormones
 ```mermaid
 
 flowchart TB
@@ -198,7 +208,7 @@ end
 
 ```
 
-###### Production of Steroid Hormones 
+###### Production (Secretion) of Steroid Hormones 
 Synthesized in the Smooth Endoplasmic Reticulum
 ```mermaid
 flowchart LR
@@ -208,7 +218,7 @@ subgraph SER ["Smooth Endoplasmic Reticulum"]
 end
 ```
 
-###### Production of Amine Hormones
+###### Production (Secretion) of Amine Hormones
 Similar to Steroid Hormones, they are derived from Tyrosine instead of cholesterol
 
 ```mermaid
