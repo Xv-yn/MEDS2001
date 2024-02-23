@@ -1,12 +1,12 @@
 #Lecture 1 Introduction
 
 ##### Learning Outcomes
-- Define what physiology is and how this differs from anatomy, using examples ^LO1
-- List the different levels of organisation within the human body, describing how they integrate ^LO2
-- Describe the importance of homeostasis within the body and how the body responds to changes in setpoints ^LO3
+- Define what physiology is and how this differs from anatomy, using examples
+- List the different levels of organisation within the human body, describing how they integrate
+- Describe the importance of homeostasis within the body and how the body responds to changes in setpoints
 
 ##### Defining Physiology
-Physiology is the study of how structures in the body relate to one another. 
+Physiology is the study of how structures in the body relate to one another.
 
 ##### Difference between Physiology and Anatomy
 | |Physiology|Anatomy|
@@ -55,7 +55,7 @@ Integration of the levels of organisation occur because each level relies on the
 Homeostasis is important because it acts as a dynamic equilibrium that allows for an organism to thrive despite a constantly changing external environment.
 
 ##### How the Body Responds to Changes in Setpoints
-The body responds to changes via feedback loops, involving sensors, effectors and control centers. More specifically, negative feedback loops reverse deviations from a setpoint and maintain stability. 
+The body responds to changes via feedback loops, involving sensors, effectors and control centers. More specifically, negative feedback loops reverse deviations from a setpoint and maintain stability.
 
 ##### Terminology
 * Long Distance Reflex
