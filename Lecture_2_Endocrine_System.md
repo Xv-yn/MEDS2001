@@ -1,6 +1,6 @@
 # Lecture 2 Endocrine System
 
-#### 
+#### Learning Outcomes
 
 - Describe the role of the endocrine system
 - Identify the cells of the endocrine system and their location
@@ -10,28 +10,11 @@
 
 
 ##### Endocrine System
-The endocrine system is one of the key ways a cells communicate with each other. This is achieved through the secretion of hormones. 
-Hormones are chemical messengers that are made in one part of the body and are sent through blood circulation to reach specific targets, triggering effects in the corresponding body parts.
+The endocrine system is one of the key ways a cells communicate with each other. This is achieved through the secretion of hormones.
 
 In simpler terms, one of the ways cells can "talk" to each other is through the use of hormones (like emails). Hormones travel through the blood circulation (the internet) to reach the specific target(s) (the recipient). The endocrine system (the email server) is what allows this to happen.
 
-##### Glands of the Endocrine System and Their Location
-- Pituitary Gland
-	- Located in the Head
-- Thyroid
-	- Located near the Throat
-- Parathyroid
-	- Located near the Throat 
-- Islets of Langerhans
-	- Located near the Pancreas
-- Adrenal Gland
-	- Located near the Kidneys 
-- Ovaries
-	- Located near the Groin
-- Testes
-	- Located near the Groin
-
-##### Functions
+##### Functions of the Endorine System
 The endocrine system is reponsible for many things in the body. This is a generalized list of some, but not all of the functions of the endocrine system.
 - Respiration
 - Metabolism
@@ -41,21 +24,26 @@ The endocrine system is reponsible for many things in the body. This is a genera
 - Sexual Development
 - Growth
 
-##### Types of Hormone Pathways
-1. Autocrine Pathway (Autocrine Signalling)
-	- Hormones target sites on the same cell that produced them
-	- Influences the function or activity of the secreting cells themselves
-	- Cell releases hormones and the hormones attach to itself (E.g. opening a bottle of bees and the bees attack you)
-2. Paracrine Pathway (Paracrine Signalling)
-	- Hormones act on nearby cells without entering blood circulation
-	- Affects adjacent cells within the same tissue
-	- Cells release hormones and the hormones attach themselves to neighbouring cells (E.g. opening a bottle of bees and the bees attack the friend next to you)
-3. Endocrine Pathway (Endocrine Signalling)
-	- Hormones are released directly into the bloodstream by the endocrine glands
-	- Travels to distant target cells or organs
-	- Cells release hormones and the hormones diffuse into the bloodstream to affect their target cells (E.g. opening a bottle of bees and the bees travel down the road to harrass another person)
+##### Glands of the Endocrine System and Their Location
+- Pituitary Gland
+	- Located in the Head
+- Thyroid
+	- Located near the Throat
+- Parathyroid
+	- Located near the Throat
+- Islets of Langerhans
+	- Located near the Pancreas
+- Adrenal Gland
+	- Located near the Kidneys
+- Ovaries
+	- Located near the Groin
+- Testes
+	- Located near the Groin
 
-##### Hormone Action
+##### Hormones
+Hormones are chemical messengers that are made in one part of the body and are sent through blood circulation to reach specific targets, triggering effects in the corresponding body parts.
+
+##### Hormone Action (What Hormones Can Make a Cell Do)
 Hormones act on target cells in 1 of 3 ways (The resultant effect of how hormones can affect cells):
 1. Control the rate of enzymatic reactions
 2. Control ion and molecular transport across cell membranes
@@ -79,6 +67,83 @@ node2("Blood Stream") --Diffusion--> node4("Cell With Receptor</br>(Target Cell)
 
 Simply put, the hormones diffuse into the vasculature (blood stream) and travel to the intended site. The hormones then diffuse out of the vasculature when they have reached the site and bind to specific receptors of the intended cells of the target organ.
 
+##### Types of Hormone Pathways (Signalling)
+1. Autocrine Pathway (Autocrine Signalling)
+	- Hormones target sites on the same cell that produced them
+	- Influences the function or activity of the secreting cells themselves
+	- Cell releases hormones and the hormones attach to itself (E.g. opening a bottle of bees and the bees attack you)
+2. Paracrine Pathway (Paracrine Signalling)
+	- Hormones act on nearby cells without entering blood circulation
+	- Affects adjacent cells within the same tissue
+	- Cells release hormones and the hormones attach themselves to neighbouring cells (E.g. opening a bottle of bees and the bees attack the friend next to you)
+3. Endocrine Pathway (Endocrine Signalling)
+	- Hormones are released directly into the bloodstream by the endocrine glands
+	- Travels to distant target cells or organs
+	- Cells release hormones and the hormones diffuse into the bloodstream to affect their target cells (E.g. opening a bottle of bees and the bees travel down the road to harrass another person)
+
+##### Hormone Production (Secretion)
+###### Production (Secretion) of Peptide Hormones
+```mermaid
+
+flowchart TB
+
+node1("Ribosome") -."Reads".- node2[/"mRNA"/]
+
+subgraph ER ["Endoplasmic Reticulum"]
+	direction TB
+	node1 --"Binds Amino Acids"--> node3[\"Preprohormone"\]
+	node3 -."Separates".- node4[\"Signal Sequence"\]
+end
+
+node3 --> node5[\"Preprohormone"\]
+
+subgraph TV ["Transport Vesicle"]
+	direction TB
+	node5
+end
+
+node5 --> node6[\"Preprohormone"\]
+
+subgraph GC ["Golgi Complex"]
+	direction TB
+	node6[\"Preprohormone"\]
+end
+
+GC --"Budding"--> SV
+
+subgraph SV ["Secretory Vesicle"]
+	direction TB
+	node7[\"Preprohormone"\] -."Reacts".- node8["Enzymes"]
+	node7 --> node9("Active Peptides + Peptide Framents")
+	node8 --> node9
+end
+
+node9 --"Exocytosis"--> node10
+
+subgraph ES ["Circulation"]
+direction TB
+	node10["Target"]
+end
+
+```
+
+###### Production (Secretion) of Steroid Hormones
+Synthesized in the Smooth Endoplasmic Reticulum
+```mermaid
+flowchart LR
+
+subgraph SER ["Smooth Endoplasmic Reticulum"]
+	node1(["Cholesterol"]) -->|"Intermediate Compounds"| node2(["Steroid Hormones"])
+end
+```
+
+###### Production (Secretion) of Amine Hormones
+Similar to Steroid Hormones, they are derived from Tyrosine instead of cholesterol
+
+```mermaid
+flowchart TD
+node1(["Tyrosine"]) -->|"Intermediate Compounds"| node2(["Amine Hormones"])
+```
 ##### Termination of Hormone Action
 Hormone action is terminated through 1 of 3 ways.
 1. Limiting the secretion of hormones
@@ -90,6 +155,7 @@ Hormone action is terminated through 1 of 3 ways.
 		- These enzymes are generally produced in the liver or kidney
 3. Terminating hormone activity in target cells
 	- Receptor-hormone complex is brought into the target cell via endocytosis and causes the hormones to be digested by lysosomes
+
 
 ##### Feedback Loops
 - Negative Feedback Loops
@@ -137,17 +203,17 @@ Similarly, hormones are only hydrophillic or lipophillic.
 Hormones are mostly classified using biochemistry, and there are divided as:
 1. Peptide Hormones (Also called protein hormones)
 	- Composed of linked amino acids
-1. Steroid Hormones
+2. Steroid Hormones
 	- Derived from cholesterol
 	- Synthesized only in few organs:
 		- Adrenal Cortex
 		- Gonads
 		- Skin
 		- Placenta
-1. Amine Hormones 
+3. Amine Hormones 
 	- Modified from tryptophan or tyrosine
 
-##### Hormone Mechanism of Action
+##### Hormone Mechanism of Action (How Hormones Manipulate a Cell)
 - Peptide and Amine Hormones must combine with a memebrane receptor of their target cell to instigate a response 
 	- This is because they are hydrophillic and cannot direcly pass through cell membrane
 - Steroid Hormones are lipophillic and can diffuse easily across membranes
@@ -162,71 +228,7 @@ Hormones are mostly classified using biochemistry, and there are divided as:
 		- Synthesized as needed
 		- Transported via concentration gradient by diffusion
 
-##### Hormone Production
-###### Production (Secretion) of Peptide Hormones
-```mermaid
-
-flowchart TB
-
-node1("Ribosome") -."Reads".- node2[/"mRNA"/] 
-
-subgraph ER ["Endoplasmic Reticulum"]
-	direction TB
-	node1 --"Binds Amino Acids"--> node3[\"Preprohormone"\] 
-	node3 -."Separates".- node4[\"Signal Sequence"\]
-end
-
-node3 --> node5[\"Preprohormone"\]
-
-subgraph TV ["Transport Vesicle"]
-	direction TB
-	node5
-end
-
-node5 --> node6[\"Preprohormone"\]
-
-subgraph GC ["Golgi Complex"]
-	direction TB
-	node6[\"Preprohormone"\]
-end
-
-GC --"Budding"--> SV
-
-subgraph SV ["Secretory Vesicle"]
-	direction TB
-	node7[\"Preprohormone"\] -."Reacts".- node8["Enzymes"]
-	node7 --> node9("Active Peptides + Peptide Framents")
-	node8 --> node9
-end
-
-node9 --"Exocytosis"--> node10
-
-subgraph ES ["Circulation"]
-direction TB
-	node10["Target"]
-end
-
-```
-
-###### Production (Secretion) of Steroid Hormones 
-Synthesized in the Smooth Endoplasmic Reticulum
-```mermaid
-flowchart LR
-
-subgraph SER ["Smooth Endoplasmic Reticulum"]
-	node1(["Cholesterol"]) -->|"Intermediate Compounds"| node2(["Steroid Hormones"]) 
-end
-```
-
-###### Production (Secretion) of Amine Hormones
-Similar to Steroid Hormones, they are derived from Tyrosine instead of cholesterol
-
-```mermaid
-flowchart TD
-node1(["Tyrosine"]) -->|"Intermediate Compounds"| node2(["Amine Hormones"]) 
-```
-
-##### Endocrine Pathologies
+##### Endocrine Pathologies (Examples and Causes)
 There are three classes of Endocrine Pathology
 1. Hypersecretion
 	- Excess levels of Hormones
@@ -246,5 +248,3 @@ There are three classes of Endocrine Pathology
 		- If hormone levels are too high for extended periods of time, the target cells can down-regulate their receptors.
 			- This slows are stops the responsiveness of the cell to the specific hormone
 		- E.g. Hyperinsulinemia (Also called Type 2 Diabetes)
-
-
