@@ -13,36 +13,36 @@ Submission: Assessments
 
 Length: Variable
 
-Due: 
-- 7th March 11:59pm 
-- 21st March 11:59pm 
-- 11th April 11:59pm 
-- 2nd May 11:59pm 
-- 9th May 11:59pm 
+Due:
+- 7th March 11:59pm
+- 21st March 11:59pm
+- 11th April 11:59pm
+- 2nd May 11:59pm
+- 9th May 11:59pm
 
 Value: 30% total (comprising 10% participation and 20% prac assessment)
 
 ### Lecture Quiz 1 (6%) Wednesday 13th March 12pm
-Description: Quiz - Introduction and endocrine 
+Description: Quiz - Introduction and endocrine
 
-Format: MCQs etc. (no SAQs) 
+Format: MCQs etc. (no SAQs)
 
-Submission: Canvas quiz 
+Submission: Canvas quiz
 
-Duration: 30 min 
+Duration: 30 min
 
 Date: Wednesday 13th March 12pm (Week 4)
 
 Value: 6%
 
-### Integrated assessment (10%) Sunday March 24th 11:59pm 
+### Integrated assessment (10%) Sunday March 24th 11:59pm
 Description: Written task
 
 Format: Assignment
 
 Submission: Assessments
 
-Length: 800 words 
+Length: 800 words
 
 Due: Week 05, 11:59pm March 24th
 
@@ -57,7 +57,7 @@ Submission: Canvas quiz
 
 Duration: 30 min
 
-Date: Thursday 28th March 12pm (Week 6). 
+Date: Thursday 28th March 12pm (Week 6)
 
 Value: 6%
 
@@ -70,7 +70,7 @@ Submission: Canvas quiz
 
 Duration: 30 min
 
-Date: Thursday 25th April 12pm (Week 9). 
+Date: Thursday 25th April 12pm (Week 9)
 
 Value: 6%
 
@@ -83,13 +83,13 @@ Submission: Canvas quiz
 
 Duration: 30 min
 
-Date: Tuesday 21st May 12pm (Week 13). 
+Date: Tuesday 21st May 12pm (Week 13)
 
 Value: 6%
 
 ### Final Exam (36%) Formal Exam Period
 
-Description: Supervised Exam 
+Description: Supervised Exam
 
 Format: MCQs and SAQs
 
@@ -97,4 +97,4 @@ Length: 90 min + 10 min reading time
 
 Date: Formal Exam period
 
-Value: 36% 
+Value: 36%
