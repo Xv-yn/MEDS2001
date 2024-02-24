@@ -1,4 +1,4 @@
-#Lecture 1 Introduction
+# Lecture 1 Introduction
 
 ##### Learning Outcomes
 - Define what physiology is and how this differs from anatomy, using examples
